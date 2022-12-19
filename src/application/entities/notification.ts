@@ -30,6 +30,12 @@ export class Notification {
   public get content(): Content {
     return this.props.content;
   }
+  public set recipientId(recipientId: string) {
+    this.props.recipientId = recipientId;
+  }
+  public get recipientId(): string {
+    return this.props.recipientId;
+  }
   public set category(category: string) {
     this.props.category = category;
   }
