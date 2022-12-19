@@ -12,3 +12,5 @@ export class CreateNotificationBody {
   @IsNotEmpty()
   category: string;
 }
+
+// DTO - Data Transfer Object
