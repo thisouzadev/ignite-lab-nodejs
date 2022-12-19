@@ -6,3 +6,4 @@ npx prisma init --datasource-provider SQLite
 npx prisma migrate dev
 npx prisma studio "visualizar o db"
 npm i class-validator class-transformer
+npx tsc --noEmit "verificar erro typescript"
